@@ -1,9 +1,5 @@
 /* Font style  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* .for-gap{
-    align-content: center;
-    
-} */
 body{
     background-color: white;
     font-family: Poppins;
@@ -18,13 +14,10 @@ main{
    justify-content: space-between;
    margin-left: 120px;
    margin-right: 120px;
-   margin-top: 80px;
-   
+   margin-top: 80px; 
 }
 .hov{
-    
     transition-duration: 2s;
-
 }
 .hov:hover{
     color: #E02C6D;
@@ -65,12 +58,10 @@ main{
     display: flex;
 
 }
-
 .for-p{
     font-size: 16px;
     width: 50%;
 }
-
 .logos{
     display: flex;
       justify-content: space-around; 
@@ -94,7 +85,6 @@ font-size: 24px;
 align-items: center;
 color: rgba(0, 0, 0, 0.87);
 }
-
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -134,8 +124,6 @@ color: #787885;
     text-decoration: none;
     color: rgb(224, 44, 109);
 }
-
-
 footer {
     margin-top: 30px;
     background-color: rgb(48, 36, 48);
@@ -167,7 +155,6 @@ footer {
     }
     
 }
-
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
         width: 100%;
